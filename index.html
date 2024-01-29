@@ -44,12 +44,11 @@ h5 {
   font-weight: 600;
   font-size: 22px;
   text-transform: uppercase;
-  left: 48%;
+  left: 47%;
   top: 58%;
   margin-left: -20px;
   background-clip: text;
   background-image: linear-gradient(to right, #f11809, #fe8e0f);
-  color: linear-gradient(to right, #f11809, #fe8e0f);;
   font-weight: var(--font-weight);
   letter-spacing: var(--letter-spacing);
   padding: calc(--stroke-width / 2);
@@ -311,6 +310,21 @@ h5 {
 }
 #body {
     display: none;
+  }
+  @media screen and (max-width: 768px) {
+    /* Add responsive styles for smaller screens */
+
+    h5 {
+      font-size: 18px;
+      top: 55%;
+      left: 44%;
+    }
+
+    .body {
+      top: 45%;
+    }
+
+    /* Adjust other styles as needed */
   }
 </style>
 <body id="top" class="dark_theme">
